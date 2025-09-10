@@ -16,8 +16,13 @@ Vision modality data, including RGB video sequences, contains sensitive biometri
 This statement, alongside dataset documentation, is publicly available to foster transparency. Users must cite the dataset in publications and report derivative works. The authors assume no liability for misuse but commit to addressing ethical concerns raised by the community. For inquiries, ethical concerns, or access requests, please contact the corresponding author. This dataset is intended for advancing gait recognition research in healthcare, security, and human-computer interaction—not for unregulated or unethical applications.
 
 # Data Processing File
-
-
+Multi_readAdcData.m & parameter_setting.m --read radar data
+MTI.m --Static clutter processing
+time-frequency fft.m --range-frequency processing
+stft.m --time-frequency processing
+foreground_seg.py --Gait silhouette extraction based on traditional methods
+u2net.py --Gait silhouette extraction based on the deep learning method
+optical_flow_cal.py --optical flow sequence calculation method
 
 # Datasets Link
 --Supported by Baidu Netdisk
