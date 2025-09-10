@@ -17,11 +17,17 @@ This statement, alongside dataset documentation, is publicly available to foster
 
 # Data Processing File
 Multi_readAdcData.m & parameter_setting.m --read radar data
+
 MTI.m --Static clutter processing
+
 time-frequency fft.m --range-frequency processing
+
 stft.m --time-frequency processing
+
 foreground_seg.py --Gait silhouette extraction based on traditional methods
+
 u2net.py --Gait silhouette extraction based on the deep learning method
+
 optical_flow_cal.py --optical flow sequence calculation method
 
 # Datasets Link
